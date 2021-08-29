@@ -14,12 +14,13 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        
     </head>
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="#page-top">Portfolio - Patricia Ruiz</a>
+                <a class="navbar-brand js-scroll-trigger" href="#page-top">Portfolio</a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars"></i>
@@ -37,58 +38,55 @@
             </div>
         </nav>
         <!-- Masthead-->
-        <header class="masthead">
-            <div class="container d-flex h-100 align-items-center">
-                <div class="mx-auto text-center">
-                    <h1 class="text-white-50 text-uppercase">¡Hola!</h1>
-                    <h3 class="text-white-50 mx-auto mt-2 mb-5">Estoy encantada de que estés aquí.</h3>
-                    
-                    <h5 class="text-white-50 mx-auto mt-2 mb-5">Si quieres saber más sobre mí, sigue deslizando hacia abajo :) ¡Gracias! </h5>
-                    
-                    <h5 class="text-white-50 mx-auto mt-2 mb-5">___</h5>
-                    
-                </div>
-            </div>
-        </header>
-        <!-- About-->
-        <section class="projects-section bg-light" id="about">
-            <div class="container">
+        <header >
+            <section class="about-section text-center " id="about">
+              <div class="container">
                 <div class="row">
+                  
                     <div class="col-lg-8 mx-auto">
-                        <h1 class=" text-center text-primary text-black mb-5">Sobre mí</h1>
-                        <div class="container">
-                            <!-- Portfolio Item Row -->
-                            <div class="row">
-                          
-                              <div class="col-md-8">
-                                <img class="img-fluid" src="assets/img/profile.jpg">
-                              </div>
-                          
-                        <p class=" mb-2"></p>
-                              <div class="col-md-4">
-                                <h2 class=" mb-4">Perfil</h2>
-                                <h5 class=" text-black-50">
-                                Soy Patricia Ruiz diseñadora y desarrolladora de videojuegos, interesada en el ámbito de la programación.
-                                En mi tiempo libre sigo formándome y haciendo proyectos para poder seguir adquiriendo conocimientos y habilidades.</h5>
-                              </div>
-                            </div>
-                            <!-- Related Projects Row -->
-                            <div class="row">
-                            <h3 class="my-4">Skills:</h3>
-                           
-                                <ul>
-                                    <li>Organización</li>
-                                    <li>Trabajo en equipo</li>
-                                    <li>Programación Orientada a Objetos</li>
-                                    <li>Diseño</li>
-                                  </ul>
+                      
+                  <h2 class=" text-center text-white ">Perfil</h2>
+                                <div class="card shadow mb-4">
+                                    <!-- Card Header - Dropdown -->
+                                    <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                                       
+                                        <h5 class=" text-black-50">
+                                          Soy Patricia Ruiz diseñadora y desarrolladora de videojuegos, interesada en el ámbito de la programación.
+                                          Mis principales destrezas son la programación, el diseño,  la organización y la resolución de problemas.
+                                          En mi tiempo libre sigo formándome para mejor mis habilidades y ampliar mis conocimientos.</h5>
+                                    </div>
+                                    <!-- Card Body -->
+                                    <div class="card-body">
+                                        <div class="chart-pie pt-4 pb-2">
+                                            <canvas id="myPieChart"></canvas>
+                                        </div>
+                                        <div class="mt-4 text-center small">
+                                            <span class="mr-2">
+                                                <i class="fas fa-circle text-primary"></i> Resolución de problemas
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-circle text-primary"></i> Organización
+                                            </span>
+                                            
+                                            <span class="mr-2">
+                                                <i class="fas fa-circle text-success"></i> Diseño
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-circle text-info"></i> Programación
+                                            </span>
+                                        </div>
+                                    </div>
                                 </div>
-                          </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- About-->
+                            </div>
+                        </div>
+                             
+                            </div>
+                      </div>
+                  </div>
+              </div>
+          </section>
+        </header>
+        
         <section class="about-section text-center" id="formacion">
             <div class="container">
                 <div class="row">
@@ -96,56 +94,69 @@
                         <h2 class="text-white mb-4">Formación</h2>
                         <div class="container">                          
                             <div class="row">
-                              <div class="col-lg-4 col-sm-6 mb-4">
+                                <div class="col-lg-4 col-sm-6 mb-4">
                                 <div class="card h-100">
+                                    
                                   <div class="card-body">
                                     <h4 class="card-title text-primary">
-                                      <a>Formación académica</a>
-                                    </h4>
-                                    <p class="card-text"> 
-                                        <a>Diseño y Desarrollo de videojuegos-Universidad Rey Juan Carlos (2018/20).</a>
-                                        <br />
-                                        <a>Ingeniería de Computadores (2 años) Universidad-Politécnica de Madrid (2016/18).</a>
-                                        </p>
+                                        <a>Formación académica</a>
+                                      </h4>
+                                      <div class="card-text">
+                                    <dl>
+                                        <dt>Universidad: </dt>
+                                        <dd>Diseño y Desarrollo de videojuegos-Universidad Rey Juan Carlos (2018/20).</dd>
+                                        <dd> Ingeniería de Computadores (2 años) Universidad-Politécnica de Madrid (2016/18)</dd>
+                                        <dt>Bachillerato:</dt>
+                                        <dd>IES. Arquitecto Ventura Rodríguez (2016/18)</dd>
+                                    </dl> 
+                                    </div>
+                                   
                                   </div>
                                 </div>
                               </div>
                               <div class="col-lg-4 col-sm-6 mb-4">
                                 <div class="card h-100">
-                                  <div class="card-body">
-                                    <h4 class="card-title text-primary">
-                                      <a >Destrezas</a>
-                                    </h4>
-                                    <p class="card-text">
-                                        <a>Trello, Github</a>
-                                        <br />  
-                                        <a>Microsoft(word, powerpoinT, Excel, teams...)</a>
-                                        <br />
-                                        <a>Visual Studio, Eclipse, IntellIJ, NetBeans, PyCharm...</a>
-                                        <br />
-                                        <a>Unity, Unreal</a>
-                                        <br />
-                                        <a>Photoshop, Procreate, Blender, 3DSMax</a>
-
-                                    </p>
-                                  </div>
+                                    
+                                    <div class="card-body">
+                                        <h4 class="card-title text-primary">
+                                            <a>Destrezas</a>
+                                          </h4>
+                                        <div class="card-text">
+                                        <dl>
+                                            <dt>Organización: </dt>
+                                        <dd>Trello, Github, Notion</dd>
+                                        <dt>Programación:</dt>
+                                        <dd>Visual Studio, Eclipse, IntellIJ, NetBeans, PyCharm</dd>
+                                        <dt>Diseño:</dt>
+                                        <dd>Photoshop, Procreate, Canva, Blender, 3DSMax, Substance</dd>
+                                        <dt>Otros:</dt>
+                                        <dd>Herramientas de Microsoft Office, Unity, Unreal</dd>
+                                    </dl> 
+                                           
+                                        </div>
+                                    </div>                                      
                                 </div>
-                              </div>
+                            </div>
                               <div class="col-lg-4 col-sm-6 mb-4">
                                 <div class="card h-100">
                                   <div class="card-body">
                                     <h4 class="card-title text-primary">
                                       <a >Conocimientos</a>
                                     </h4>
-                                    <p class="card-text">
-                                        <a>- Metodología ágil: Scrum </a>
-                                          <br />
-                                        <a>- Lenguajes de programación: java, C, C++,c#, JavaScript, pl/sql, Sql, Python...</a>
-                                        <br />
-                                        <a>- Programación en lenguajes de marcas: Html, xml...</a>
-                                        <br />
-                                        <a>- Administración y programación de  BB.DD. : SQLITE, mongoDB, Oracle 11g</a>
-                                    </p>
+                                        <div class="card-text">
+                                            <dl>
+                                                <dt>Metodología ágil:</dt>
+                                                <dd>Scrum</dd>
+                                                <dt>Lenguajes de programación:</dt>
+                                                <dd>C#, C++, C, Java, JavaScript, PL/SQL , SQL, Python</dd>
+                                                <dt>Programación en lenguajes de marcas:</dt>
+                                                <dd>HTML, CSS, XML</dd>
+                                                <dt>Administración y programación de BB.DD:</dt>
+                                                <dd>SQLITE, MongoDB, Oracle 11g</dd>
+                                              </dl> 
+                                                                              </div>
+                                    </div>         
+                                                                          
                                   </div>
                                 </div>
                               </div>
@@ -157,14 +168,15 @@
             </div>
         </section>
          <!-- Projects-->
-        <section class="projects-section bg-light" id="formacionAdicional">
+        <section class="about-section text-center" id="formacionAdicional">
             <div class="container">
                 <!-- Featured Project Row-->
-                  <div class="col-lg-8 mx-auto">
-                  <h1 class=" text-center text-primary text-black mb-5">Información adicional</h1>
-                  </div>
-                <div class="row align-items-center  mb-4 mb-lg-5">
-                    <div class="col-xl-8 col-lg-7"> 
+                
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2 class=" text-center text-white ">Información Adicional</h2>
+                        <div class="card h-100">
+                            <div class="card-body">
                           <header>
                             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                               <ol class="carousel-indicators">
@@ -203,96 +215,106 @@
                                </a>
                          </div>
                        </header>
-                     </div>
-                   <div class="col-xl-4 col-lg-5">
-                     <div class="featured-text text-center text-lg-left">
-                         <h4>Autodidactismo artístico</h4>
-                         <p class="text-black-50 mb-0">Estos son algunos ejemplos de personajes diseñados y dibujos realizados. </p>
-                     </div>
-                    </div>
-             <div class="col-lg-4 col-sm-1 mb-4">
+                                    
+                                    <h4 class="card-title text-primary">
+                                        <a>Autodidactismo artístico</a>
+                                      </h4>
+                                    <div class="card-text">
+                                        <p class="text-black-50 mb-0">Se ha empleado la constancia y la lectura de libros, entre todos ellos cabe destacar:</p>
+                                        <ul class="text-black-50 mb-0">
+                                            <li>
+                                               Palette Perfect(Lauren Wager)
+                                            </li>
+                                            <li>
+                                               Anatomía artística (Michel Lauricella)
+                                            </li>
+                                            <li>
+                                               Constructive anatomy( George B. Bridgman) 
+                                            </li>
+                                       
+                                    </div>    
+
                     <h4 class=" text-primary">
                       <a >Idiomas</a>
                     </h4>
-                        <div class="card-text">
-                            <br>
-                            <p class="mb-0 text-black">Lengua materna: Español </p>
-                            <p class="mb-0 text-black">Segunda lengua: Inglés B2</p>
-                        </div>
-             </div>   
-             <div class="col-lg-4 col-sm-1 mb-4">
+                    <ul class="text-black-50 mb-0">
+                        <li>
+                            Lengua materna: Español
+                        </li>
+                        <li>
+                            Segunda lengua: Inglés B2
+                        </li>
+                    </ul>
+                       
                 <h4 class="text-primary">
                     <br>
                     <a >Cursos realizados</a>
                 </h4>
-                  <div class="card-text">
-                      <br>
-                            <p class="mb-0 text-black">Curso Google Marketing digital (2020)</p>
-                            <p class="mb-0 text-black">Curso Google Desarrollo de aplicaciones móviles (2020)</p>
-                            <p class="mb-0 text-black">Curso Google Comercio electrónico (2020)</p>
-                 </div>
-            </div>
-            <div class="col-lg-4 col-sm-1 mb-4">
+                <ul class="text-black-50 mb-0">
+                    <li>
+                        Curso Google Marketing digital (2020)
+                    </li>
+                    <li>
+                        Curso Google Desarrollo de aplicaciones móviles (2020)
+                    </li>
+                    <li>
+                        Curso Google Comercio electrónico (2020)
+                    </li>
+                </ul>
+                     
                 <h4 class="text-primary">
                     <a >Experiencia</a>
                 </h4>
-                  <div class="card-text">
-                      <br>                      
-                            <p class="mb-0 text-black">Becaria en Spika Tech (2021-2021)</p>
-                            <p class="mb-0 text-black">Artista emprendedora (2020-2021)</p>
-                            <p class="mb-0 text-black">Profesora particular de matemáticas (2016-2021)</p>
-                            <p class="mb-0 text-black">Cuidadora de niños (2016-2021)</p>
-                 </div>
+                <ul class="text-black-50 mb-0">
+                    <li>
+                        Becaria en Spika Tech (2021-2021)
+                    </li>
+                    <li>
+                        Artista emprendedora (2020-2021)
+                    </li>
+                    <li>
+                        Profesora particular de matemáticas (2016-2021)
+                    </li>
+                    <li>
+                        Cuidadora de niños (2016-2021)
+                    </li>
+                </div>
             </div>
+        </div>
+    </div>
+
          </div>
      </section>
-        <!-- Projects-->
-        <section class="projects-section bg-light" id="projects">
-            <div class="container">
-                <!-- Featured Project Row-->
-                <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+        <section class="about-section text-center" id="projects">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class=" text-center text-white ">Proyectos actuales</h2>
+                    <div class="card h-100">
+                        <div class="card-body">
+                           <div class="card-text">
+                   <dl>
+                       
+                    <dt>Trabajo de fin de grado:</dt>
                     
-                  <div class="col-lg-8 mx-auto">
-                    <h1 class=" text-center text-primary text-black mb-5">Proyectos</h1>
-                    </div>
-                   
-                </div>
-                <!-- Project One Row-->
-                <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-                    <div class="col-lg-6">
-                        <div class=" text-center h-100 project">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-black">Amplicación móvil</h4>
-                                    <p class="mb-0 text-black-50">En proceso...</p>
-                                    <hr class="d-none d-lg-block mb-0 ml-0" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Project Two Row-->
-                <div class="row justify-content-center no-gutters">
-                   <div class="col-lg-6 order-lg-first">
-                        <div class=" text-center h-100 project">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-black">Trabajo de fin de grado</h4>
-                                    <p class="mb-0 text-black-50">En proceso... </p>
-                                    <hr class="d-none d-lg-block mb-0 mr-0" />
-                                </div>
-                            </div>
+                   <dd>En proceso</dd>
+                   <dt>Aplicacion de móvil con amigos:</dt>
+                    
+                   <dd>En proceso</dd>
+                   </dl>
+                        </div>   
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        -->
         <!-- Signup-->
-        <section class="signup-section" id="contacto">
-         
+        <section class="about-section text-center" id="contacto">
             <div class="container">
                 <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2 class="text-white mb-4">Contacto</h2>
+                        <div class="container">
+                            <div class="row">
                     <div class="col-md-4 mb-3 mb-md-0">
                         <div class="card py-4 h-100">
                             <div class="card-body text-center">
@@ -329,11 +351,16 @@
                         </div>
                     </div>
                 </div>
+            
             </div>
+        </div>
+    </div>
+
+        </div>
         </section>
-        
+         <section class="about-section text-center">
         <!-- Footer-->
-        <footer class="footer bg-black small text-center text-white-50"><div class="container">Copyright © Portfolio-PRB 2021</div></footer>
+        <footer class="footer text-center text-white-50"><div class="container">Copyright © Portfolio-PRB 2021</div></footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
@@ -341,5 +368,22 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+          <!-- Bootstrap core JavaScript-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="js/sb-admin-2.min.js"></script>
+
+    <!-- Page level plugins -->
+    <script src="vendor/chart.js/Chart.min.js"></script>
+
+    <!-- Page level custom scripts -->
+    <script src="js/demo/chart-area-demo.js"></script>
+    <script src="js/demo/chart-pie-demo.js"></script>
+</section>
     </body>
 </html>
