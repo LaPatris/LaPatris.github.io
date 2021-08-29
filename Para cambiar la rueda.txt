@@ -1,1 +1,4 @@
 Para cambiar la rueda en jss demo y chart pie demo
+ CAMBIAR LOS CUADRADITOS DE INFORMACIÓN ADICIONAL
+
+
