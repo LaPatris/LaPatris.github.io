@@ -10,8 +10,8 @@ var myPieChart = new Chart(ctx, {
     labels: ["Programación", "Diseño", "Organización", "Resolución de problemas"],
     datasets: [{
       data: [50, 25,  15, 10],
-      backgroundColor: ['#4e73df', '#1cc88a', '#36b9cc', '#36b9cc'],
-      hoverBackgroundColor: ['#2e59d9', '#17a673', '#2c9faf'],
+      backgroundColor: ['#D5D836', '#2A4841', '#8EBC81', '#F1FBC3'],
+      hoverBackgroundColor: ['#F18448', '#1cc88a', '#FCE1E7', '#353693'],
       hoverBorderColor: "rgba(234, 236, 244, 1)",
     }],
   },

@@ -58,8 +58,12 @@ html {
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
+
+ giftback {
+  background: url("../assets/img/Welcome.gif")
+}
 body {
-  background: url("../assets/img/bg-masthead.png") no-repeat center center fixed;
+  background: url("../assets/img/bg-masthead1.png") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
