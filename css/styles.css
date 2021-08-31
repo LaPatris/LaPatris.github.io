@@ -59,9 +59,6 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
 
- giftback {
-  background: url("../assets/img/Welcome.gif")
-}
 body {
   background: url("../assets/img/bg-masthead1.png") no-repeat center center fixed;
   -webkit-background-size: cover;
