@@ -7,11 +7,11 @@ var ctx = document.getElementById("myPieChart");
 var myPieChart = new Chart(ctx, {
   type: 'doughnut',
   data: {
-    labels: ["Programación", "Diseño", "Organización", "Resolución de problemas"],
+    labels: ["Programming", "Design", "Organizing", "Solving problems"],
     datasets: [{
       data: [50, 25,  15, 10],
-      backgroundColor: ['#D5D836', '#2A4841', '#8EBC81', '#F1FBC3'],
-      hoverBackgroundColor: ['#F18448', '#1cc88a', '#FCE1E7', '#353693'],
+      backgroundColor: ['#BC3C2D', '#EEE291', '#E9A447', '#AECFB3'],
+      hoverBackgroundColor: ['#BC3C2D', '#EEE291', '#E9A447', '#AECFB3'],
       hoverBorderColor: "rgba(234, 236, 244, 1)",
     }],
   },
